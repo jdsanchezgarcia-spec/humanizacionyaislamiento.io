@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>La humanización también se aisla · Seguridad del Paciente</title>
-<meta name="description" content="Guía para familiares sobre los tipos de aislamiento hospitalario, sus colores, las enfermedades que corresponden, cómo cuidar al paciente y la limpieza y desinfección terminal del área hospitalaria. Clínica Meta · Universidad de los Llanos.">
+<title>La humanización también se aisla - Seguridad del Paciente</title>
+<meta name="description" content="Portada del programa de humanización y aislamiento hospitalario de la Clínica Meta y la Universidad de los Llanos. Información separada para familiares y para el personal de salud.">
 <meta name="theme-color" content="#063a49">
 <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -12,19 +12,6 @@
 
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-<a class="top-notice" href="bienvenida.html">
-  <span aria-hidden="true">📱</span>
-  <strong>¿Es usted el familiar que visita?</strong>
-  <span class="top-notice__sub">Aquí está toda la información de la visita.</span>
-  <span class="top-notice__arrow" aria-hidden="true">→</span>
-</a>
-
-<!-- ===================================================================
-     LOGOS INSTITUCIONALES
-     Clínica Meta ............. assets/img/logo-clinica-meta.jpg
-     Universidad de los Llanos  assets/img/logo-universidad-de-los-llanos.png
-     Para cambiar un logo, reemplaza el <img> dentro del <span class="logo-slot">.
-     =================================================================== -->
 <header class="site-header">
   <div class="wrap header-bar">
     <a class="brand" href="index.html">
@@ -37,7 +24,7 @@
 
     <div class="header-logos">
       <span class="logo-slot">
-        <img src="assets/img/logo-clinica-meta.jpg" width="400" height="400" alt="Clínica Meta">
+        <img src="assets/img/logo-clinica-meta.jpeg" width="400" height="400" alt="Clínica Meta">
       </span>
       <span class="logo-slot">
         <img src="assets/img/logo-universidad-de-los-llanos.png" width="535" height="213" alt="Universidad de los Llanos">
@@ -49,40 +36,29 @@
     </button>
 
     <nav class="site-nav" id="nav-principal" aria-label="Principal">
-      <a href="bienvenida.html">Para el familiar</a>
-      <a href="#video">Video</a>
-      <a href="#tipos">Tipos de aislamiento</a>
-      <a href="#cuidados">Cómo cuidar</a>
-      <a href="#limpieza">Limpieza terminal</a>
-      <a href="#fichas">Fichas</a>    </nav>
+      <a href="#accesos">Accesos</a>
+      <a href="familiar.html">Familiares</a>
+      <a href="personal.html">Personal de salud</a>
+      <a href="#fichas-aislamiento">Fichas</a>
+          </nav>
   </div>
 </header>
 
 <main id="contenido">
 
-  <!-- ============ HERO ============ -->
-  <section class="hero">
+  <!-- ============ HERO INSTITUCIONAL + VIDEO GRANDE ============ -->
+  <section class="hero" id="video">
     <div class="wrap hero__inner">
-      <div>
-        <span class="eyebrow">Seguridad del Paciente · Clínica Meta</span>
+      <div class="hero__intro">
+        <span class="eyebrow">Clínica Meta · Universidad de los Llanos</span>
         <h1>La humanización <em>también se aisla</em></h1>
-        <p class="hero__lead">
-         aislar no es aislar a la persona: es protegerla. Esta guía explica, en lenguaje
-          sencillo, los <strong>tipos de aislamiento</strong>, las enfermedades que corresponde
-          a cada uno, cómo cuidar a tu familiar y cómo se limpia y desinfecta el área
-          hospitalaria. Lacompiled together with the Universidad de los Llanos.
-        </p>
 
-        <div class="hero__actions">
-          <a class="btn btn--cta" href="bienvenida.html">
-            <span class="btn__emoji" aria-hidden="true">🏠</span>
-            Información para el familiar
-            <span class="btn__arrow" aria-hidden="true">→</span>
-          </a>
-          <a class="btn btn--outline-dark" href="#tipos">
-            Ver los 5 tipos
-          </a>
-        </div>
+        <p class="hero__lead">
+          El aislamiento es una barrera de protección: se aísla el riesgo, no a la persona.
+          Este sitio reúne la información sobre los tipos de aislamiento hospitalario,
+          sus colores y las fichas de cada uno, con <strong>dos áreas separadas</strong>:
+          una para las familias y otra para el personal de salud.
+        </p>
 
         <ul class="hero__strip" aria-label="Colores representativos de cada tipo de aislamiento">
           <li><span class="dot" style="background:#6b2fa0" aria-hidden="true"></span>Contacto</li>
@@ -90,569 +66,177 @@
           <li><span class="dot" style="background:#ffd400" aria-hidden="true"></span>Gotas</li>
           <li><span class="dot" style="background:#c8102e" aria-hidden="true"></span>Protector</li>
           <li><span class="dot" style="background:#2e9e4f" aria-hidden="true"></span>Vectorial</li>
-        </ul>
+        
+        <img class="moly-deco" src="humanizacionlogo.png" width="400" height="400" alt="" aria-hidden="true"></ul>
       </div>
 
-      <!-- ============ VIDEO (YouTube embed directo) ============
-           Para cambiar el video, reemplaza el ID en la URL de abajo
-           (los 11 caracteres que aparecen después de watch?v=).
-           Ejemplo: https://www.youtube.com/embed/dQw4w9WgXcQ     -->
-      <div class="video" id="video">
-        <div class="video__frame">
-          <iframe
-            src="https://www.youtube.com/embed/2vI5RrKul3o"
-            title="PACIENTE AISLADO - video institucional sobre aislamiento hospitalario"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen></iframe>
+      <div class="hero__stage">
+        <div class="video" style="box-shadow: var(--shadow-lg);">
+          <div class="video__frame">
+            <iframe
+              src="https://www.youtube.com/embed/LouzbTtoyG4?si=cocnxIEMnl0gxHLa"
+              title="PACIENTE AISLADO - video institucional sobre aislamiento hospitalario"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen></iframe>
+          </div>
+          <div class="video__body">
+            <h3>¿Qué es el aislamiento hospitalario?</h3>
+            <p>
+              <strong>PACIENTE AISLADO</strong> - un mensaje de la Clínica Meta y la
+              Universidad de los Llanos: por qué se aísla, qué significa cada color y
+              cómo acompañar sin riesgo.
+            </p>
+          </div>
         </div>
-        <div class="video__body">
-          <h3>¿Qué es el aislamiento hospitalario?</h3>
-          <p>
-            <strong>PACIENTE AISLADO</strong> — un mensaje de la Clínica Meta y la
-            Universidad de los Llanos para las familias: por qué se aísla, qué significa
-            cada color y cómo acompañar sin riesgo.
-          </p>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ TIPOS DE AISLAMIENTO ============ -->
-  <section class="section section--tint" id="tipos">
+  <!-- ============ DOS ACCESOS: FAMILIA / PERSONAL DE SALUD ============ -->
+  <section class="section section--tint" id="accesos">
     <div class="wrap">
-      <div class="section-head section-head--center">
-        <span class="eyebrow">Los 5 tipos</span>
-        <h2>Cada aislamiento tiene su color</h2>
-        <p>
-          El aviso de la puerta del cubículo y el brazalete del paciente le dicen qué tipo de
-          aislamiento tiene. Use ese color como guía: define qué tipo de transmisión hay,
-          qué elementos de protección se deben usar y cómo limpiar el área.
-        </p>
-      </div>
+      <header class="section-head section-head--center">
+        <span class="eyebrow">Elija su área</span>
+        <h2>Información separada por público</h2>
+        <p>Cada público tiene su propio recorrido: la familia encuentra aquí las recomendaciones de visita y el personal de salud los referentes técnicos.</p>
+      </header>
 
-      <div class="iso-grid">
-
-        <!-- CONTACTO -->
-        <article class="iso-card" style="--c: var(--c-contacto)">
-          <div class="iso-card__head">
-            <span class="iso-card__swatch" aria-hidden="true">C</span>
-            <div>
-              <h3 class="iso-card__title">Contacto</h3>
-              <span class="iso-card__color">Color morado</span>
-            </div>
-          </div>
-          <div class="iso-card__body">
-            <p>
-              Para enfermedades que se transmiten por <strong>contacto directo</strong> con
-              el paciente, sus fluidos o los objetos y superficie que tocó.
-            </p>
-            <span class="label-mini">Patologías frecuentes</span>
-            <ul class="chips">
-              <li class="chip">Gastrointestinales: rotavirus, salmonela</li>
-              <li class="chip">Multirresistentes: KPC / CRE</li>
-              <li class="chip">Piel y tejidos blandos: heridas infectadas, abscesos abiertos</li>
-            </ul>
-            <a class="btn btn--ghost btn--block" href="fichas/ficha-contacto.html" style="margin-top:1.2rem">
-              Ver ficha de contacto <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </article>
-
-        <!-- AEROSOLES -->
-        <article class="iso-card" style="--c: var(--c-aerosoles)">
-          <div class="iso-card__head">
-            <span class="iso-card__swatch" aria-hidden="true">A</span>
-            <div>
-              <h3 class="iso-card__title">Aerosoles</h3>
-              <span class="iso-card__color">Color azul</span>
-            </div>
-          </div>
-          <div class="iso-card__body">
-            <p>
-              Para enfermedades que se transmiten por <strong>pequeñas partículas suspendidas
-              en el aire</strong>. Aquí el <strong>tapabocas N95</strong> es indispensable.
-            </p>
-            <span class="label-mini">Patologías frecuentes</span>
-            <ul class="chips">
-              <li class="chip">Tuberculosis</li>
-              <li class="chip">Sarampión</li>
-              <li class="chip">Varicela</li>
-              <li class="chip">COVID-19</li>
-            </ul>
-            <a class="btn btn--ghost btn--block" href="fichas/ficha-aerosoles.html" style="margin-top:1.2rem">
-              Ver ficha de aerosoles <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </article>
-
-        <!-- GOTAS -->
-        <article class="iso-card" style="--c: var(--c-gotas)">
-          <div class="iso-card__head">
-            <span class="iso-card__swatch" aria-hidden="true">G</span>
-            <div>
-              <h3 class="iso-card__title">Gotas</h3>
-              <span class="iso-card__color">Color amarillo</span>
-            </div>
-          </div>
-          <div class="iso-card__body">
-            <p>
-              Para enfermedades que se transmiten por <strong>gotas de la tos, el estornudo
-              o la fala</strong> a corta distancia.
-            </p>
-            <span class="label-mini">Patologías frecuentes</span>
-            <ul class="chips">
-              <li class="chip">Influenza</li>
-              <li class="chip">Tos ferina</li>
-              <li class="chip">Meningitis</li>
-              <li class="chip">Neumonía por Mycoplasma</li>
-            </ul>
-            <a class="btn btn--ghost btn--block" href="fichas/ficha-gotas.html" style="margin-top:1.2rem">
-              Ver ficha de gotas <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </article>
-
-        <!-- PROTECTOR -->
-        <article class="iso-card" style="--c: var(--c-protector)">
-          <div class="iso-card__head">
-            <span class="iso-card__swatch" aria-hidden="true">P</span>
-            <div>
-              <h3 class="iso-card__title">Protector</h3>
-              <span class="iso-card__color">Color rojo</span>
-            </div>
-          </div>
-          <div class="iso-card__body">
-            <p>
-              Para proteger al propio paciente, cuya defensas están bajas o cuya piel está
-              muy dañada. <strong>El germen no viene de afuera: lo cuidamos nosotros.</strong>
-            </p>
-            <span class="label-mini">Pacientes</span>
-            <ul class="chips">
-              <li class="chip">Inmunosuprimidos</li>
-              <li class="chip">Oncológicos</li>
-              <li class="chip">Neutropenia febril</li>
-              <li class="chip">Trasplantados</li>
-              <li class="chip">Quemaduras extensas</li>
-              <li class="chip">Pediátricos y neonatales de alto riesgo</li>
-            </ul>
-            <a class="btn btn--ghost btn--block" href="fichas/ficha-protector.html" style="margin-top:1.2rem">
-              Ver ficha de protector <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </article>
-
-        <!-- VECTORIAL -->
-        <article class="iso-card" style="--c: var(--c-vectorial)">
-          <div class="iso-card__head">
-            <span class="iso-card__swatch" aria-hidden="true">V</span>
-            <div>
-              <h3 class="iso-card__title">Vectorial</h3>
-              <span class="iso-card__color">Color verde</span>
-            </div>
-          </div>
-          <div class="iso-card__body">
-            <p>
-              Para enfermedades que transmiten <strong>mosquitos y otros vectores</strong>,
-              no el contacto con el paciente.
-            </p>
-            <span class="label-mini">Patologías frecuentes</span>
-            <ul class="chips">
-              <li class="chip">Dengue</li>
-              <li class="chip">Zika</li>
-              <li class="chip">Chikungunya</li>
-              <li class="chip">Fiebre amarilla</li>
-              <li class="chip">Malaria</li>
-            </ul>
-            <a class="btn btn--ghost btn--block" href="fichas/ficha-vectorial.html" style="margin-top:1.2rem">
-              Ver ficha de vectorial <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ CÓMO CUIDAR AL FAMILIAR ============ -->
-  <section class="section" id="cuidados">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Para ti, familiar</span>
-        <h2>Cómo cuidar a tu familiar en aislamiento</h2>
-        <p>
-          El aislamiento es una medida de protección, no una sentencia. Estas son las
-          recomendaciones que se comparten con la familia en cada ingreso.
-        </p>
-      </div>
-
-      <div class="grid grid--3">
-        <article class="care-card">
-          <div class="care-card__icon" aria-hidden="true">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5Z"/><path d="M3 21c1.5-2 3.5-2 5 0"/><path d="M16 21c1.5-2 3.5-2 5 0"/><path d="M2 14c2-1 4-1 6 0s4 1 6 0 4-1 6 0"/></svg>
-          </div>
-          <h3>Higiene de manos</h3>
-          <p>
-            Lávese las manos al entrar y al salir del cubículo, después de tocar al paciente,
-            sus objetos de cabecera y después de usar el baño. Es la medida que más
-            protege a toda la familia.
-          </p>
-        </article>
-
-        <article class="care-card">
-          <div class="care-card__icon" aria-hidden="true">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v6c0 5 3.8 8.6 9 9 5.2-.4 9-4 9-9V7l-9-5Z"/><path d="M9 12h6M12 9v6"/></svg>
-          </div>
-          <h3>Use bien los EPP</h3>
-          <p>
-            Colóquese el tapabocas, los guantes y la bata en el orden indicado, cámbielos
-            entre pacientes y retíreselos en el orden correcto, sin tocarse la cara.
-          </p>
-        </article>
-
-        <article class="care-card">
-          <div class="care-card__icon" aria-hidden="true">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Z"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/><path d="M4 12h16"/></svg>
-          </div>
-          <h3>Ropa y objetos</h3>
-          <p>
-            Lave la ropa del paciente por separado, en bolsa cerrada y con el ciclo más
-            caliente que permita la etiqueta. No mezcle sus toallas, sabanas ni outubro.
-          </p>
-        </article>
-
-        <article class="care-card">
-          <div class="care-card__icon" aria-hidden="true">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.6-7-10a7 7 0 0 1 14 0c0 5.4-7 10-7 10Z"/><circle cx="12" cy="11" r="2.5"/></svg>
-          </div>
-          <h3>Afecto sin contacto</h3>
-          <p>
-            La cercanía también se cuida: palabras, llamadas, una carta, un dibujo, un
-            reclamo de comida de su agrado. El cariño no es un riesgo; el contacto directo
-            sin protección sí lo es.
-          </p>
-        </article>
-
-        <article class="care-card">
-          <div class="care-card__icon" aria-hidden="true">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 11a3 3 0 1 0-2-5.2"/><path d="M17.5 20c0-2.5-.7-4.4-1.8-5.6A5 5 0 0 1 22 20"/></svg>
-          </div>
-          <h3>Niños y adolescentes</h3>
-          <p>
-            Explíqueles con palabras sencillas qué es el aislamiento. Mantenga la rutina
-            escolar con tareas, lecture y .-videos; el aislamiento es temporal, no un castigo.
-          </p>
-        </article>
-
-        <article class="care-card">
-          <div class="care-card__icon" aria-hidden="true">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 7a5 5 0 1 0 5 5"/><path d="M12 12 22 2"/></svg>
-          </div>
-          <h3>Ánimo y comunicación</h3>
-          <p>
-            Aísle el germen, no la familia. Mantenga conversaciones honestas sobre el
-            tratamiento, dialogue con la enfermería y pida apoyo psychosocial si la
-            ansiedad o la tristeza no cede.
-          </p>
-        </article>
-      </div>
-
-      <div class="callout">
-        <span class="callout__mark" aria-hidden="true">♥</span>
-        <p>
-          <strong>Recuerda:</strong> el aislamiento es una medida temporal y reversible para
-          proteger al paciente y a su familia. Nadie está solo: la enfermería, la oficina de
-          control de infecciones y el equipo médico están de su lado.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ GUÍA DE LIMPIEZA Y DESINFECCIÓN TERMINAL ============ -->
-  <section class="section section--tint" id="limpieza">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Guía rápida</span>
-        <h2>Limpieza y desinfección terminal del área hospitalaria</h2>
-        <p>
-          Se aplica a la liberación del cubículo o del área donde estuvo el paciente aislado.
-          Distinguimos dos planos: el <strong>ambiente físico</strong> y los
-          <strong>equipos biomédicos</strong>.
-        </p>
-      </div>
-
-      <div class="guide-grid">
-
-        <!-- AMBIENTE FÍSICO -->
-        <section class="guide-block" style="--c: var(--brand-700)">
-          <span class="guide-block__tag">Plano 1</span>
-          <h3>Ambiente físico</h3>
-          <p class="guide-block__scope">Paredes, techo, pisos, camillas y mobiliario.</p>
-
-          <ol class="steps">
-            <li>
-              <strong>Retiro de polvo visible</strong>
-              Quitar el polvo de la superficie antes de aplicar cualquier producto.
-            </li>
-            <li>
-              <strong>Limpieza con detergente</strong>
-              Aplicar el detergente y frotar hasta eliminar la suciedad.
-            </li>
-            <li>
-              <strong>Retiro del detergente</strong>
-              Enjuagar con agua limpia hasta que no quede residuo del detergente.
-            </li>
-            <li>
-              <strong>Desinfección sin retiro de la mezcla</strong>
-              Aplicar peróxido de hidrógeno al 12% dual con ácido peracético al 18%.
-              Dejar actuar según la técnica del producto: <em>no se retira ni se enjuaga</em>.
-            </li>
-          </ol>
-        </section>
-
-        <!-- EQUIPOS BIOMÉDICOS -->
-        <section class="guide-block" style="--c: var(--c-aerosoles)">
-          <span class="guide-block__tag">Plano 2</span>
-          <h3>Equipos biomédicos</h3>
-          <p class="guide-block__scope">Equipos asistenciales reutilizables del cubículo.</p>
-
-          <ol class="steps">
-            <li>
-              <strong>Limpieza con detergente</strong>
-              Limpiar el equipo con detergente y retirarlo con paño limpio.
-            </li>
-            <li>
-              <strong>Aplicación de amonio cuaternario</strong>
-              Desinfectar con amonio cuaternario respetando el tiempo de contacto.
-            </li>
-          </ol>
-
-          <p class="repeat-note">
-            En los equipos biomédicos esta limpieza se realiza <strong>doble vez</strong>:
-            se repiten los pasos 1 y 2.
-          </p>
-        </section>
-
-        <!-- EPP Y LOGÍSTICA -->
-        <section class="guide-block" style="--c: var(--c-protector)">
-          <span class="guide-block__tag">Indicaciones</span>
-          <h3>Recomendaciones de ejecución</h3>
-
-          <ul class="products">
-            <li>
-              <b>EPP</b>
-              <span>Enfermería y ambiente físico deben usar elementos de protección personal al limpiar.</span>
-            </li>
-            <li>
-              <b>Toallas</b>
-              <span>Usar las toallas indicadas por la institución; no reutilizarlas entre pacientes o cubículos.</span>
-            </li>
-            <li>
-              <b>Momento</b>
-              <span>La limpieza puede realizarse antes de que el personal de ambiente físico ingrese al cubículo.</span>
-            </li>
-            <li>
-              <b>Productos</b>
-              <span>Verificar siempre la vigencia, la concentración y el tiempo de contacto de cada producto.</span>
-            </li>
+      <div class="access-grid">
+        <!-- FAMILIA -->
+        <a class="access-card" href="familiar.html" style="--c: #e2725b">
+          <span class="access-card__icon" aria-hidden="true">👨‍👩‍👧</span>
+          <h3>Soy familiar del paciente</h3>
+          <p>Todo lo que necesita para acompañar a su familiar durante la visita, con seguridad y con calidez.</p>
+          <ul class="access-card__list">
+            <li>Reglas generales de visita</li>
+            <li>Lavado de manos: momentos clave</li>
+            <li>Qué significa el color de la puerta</li>
+            <li>Señales de alarma y egreso</li>
           </ul>
-        </section>
+          <span class="access-card__cta">
+            Ir al área de familiares
+            <span class="btn__arrow" aria-hidden="true">➜</span>
+          </span>
+        </a>
 
+        <!-- PERSONAL DE SALUD -->
+        <a class="access-card" href="personal.html" style="--c: #0e5c73">
+          <span class="access-card__icon" aria-hidden="true">🩺</span>
+          <h3>Soy personal de salud</h3>
+          <p>Referentes técnicos y operativos del programa de aislamiento y humanización.</p>
+          <ul class="access-card__list">
+            <li>Procedimiento EPI.P.003</li>
+            <li>EPP y medidas por tipo de aislamiento</li>
+            <li>Técnicas de EPP y lavado de manos</li>
+            <li>Uso institucional e impresión de fichas</li>
+          </ul>
+          <span class="access-card__cta">
+            Ir al área del personal de salud
+            <span class="btn__arrow" aria-hidden="true">➜</span>
+          </span>
+        </a>
       </div>
-
-      <p class="note">
-        Esta guía es un resumen de la socialización institucional. Para su aplicación
-        completa, siga el protocolo vigente de la Clínica Meta y las indicaciones del
-        fabricante de cada producto.
-      </p>
     </div>
   </section>
 
-  <!-- ============ PÁGINA DE BIENVENIDA (código QR) ============ -->
-  <section class="section section--brand" id="bienvenida">
+  <!-- ============ FICHAS DE AISLAMIENTO (MIXTO) ============ -->
+    <section class="section" id="fichas-aislamiento">
     <div class="wrap">
-      <div class="grid grid--2" style="align-items:center">
-        <div>
-          <span class="eyebrow">Para escanear en la puerta del cubículo</span>
-          <h2>Página de bienvenida para el familiar</h2>
-          <p style="color:#c5dde5;max-width:56ch">
-            Esta es la página que ve la familia al escanear el código QR del cubículo:
-            reglas de visita, lavado de manos, qué hacer según el color de la puerta, cómo
-            acompañarlo con calidez, señales de alarma y a quién acudir.
-          </p>
-          <p style="margin-top:1.4rem">
-            <a class="btn btn--on-dark" href="bienvenida.html">
-              Abrir la página de bienvenida <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </p>
-        </div>
-        <ul class="hero__strip" style="flex-direction:column;align-items:flex-start">
-          <li>📋 Reglas generales para toda visita</li>
-          <li>🧼 Los 5 momentos del lavado de manos</li>
-          <li>🎨 Los 5 colores de la puerta, uno por aislamiento</li>
-          <li>📱 Acompañarlo con calidez, sin romper la seguridad</li>
-          <li>🚨 Señales de alarma y a quién acudir</li>
-          <li>💊 Al egreso y contactos (SIAU)</li>
-        </ul>
+      <header class="section-head section-head--center">
+        <span class="eyebrow">Fichas por color</span>
+        <h2>Fichas de aislamiento por color</h2>
+        <p>Haga clic en una ficha para verla completa, con su aviso de puerta frontal y reverso.</p>
+      </header>
+
+      <div class="grid grid--2">
+        <a class="mini-ficha" style="--c: #1a6fd4" href="fichas/ficha-aerosoles.html">
+          <span class="mini-ficha__top"><span class="mini-ficha__dot" aria-hidden="true"></span><h3>Aislamiento por aerosoles - azul</h3></span>
+          <p>Tuberculosis, sarampi&oacute;n, varicela y COVID-19. Informaci&oacute;n completa y acceso a la ficha con su aviso de puerta.</p>
+          <span class="mini-ficha__cta">Ver informaci&oacute;n &rarr;</span>
+        </a>
+
+        <a class="mini-ficha" style="--c: #6b2fa0" href="fichas/ficha-contacto.html">
+          <span class="mini-ficha__top"><span class="mini-ficha__dot" aria-hidden="true"></span><h3>Aislamiento por contacto - morado</h3></span>
+          <p>Gastrointestinales, bacterias resistentes y heridas infectadas. Informaci&oacute;n completa y acceso a la ficha con su aviso de puerta.</p>
+          <span class="mini-ficha__cta">Ver informaci&oacute;n &rarr;</span>
+        </a>
+
+        <a class="mini-ficha" style="--c: #b98900" href="fichas/ficha-gotas.html">
+          <span class="mini-ficha__top"><span class="mini-ficha__dot" aria-hidden="true"></span><h3>Aislamiento por gotas - amarillo</h3></span>
+          <p>Gripe, tos ferina, meningitis y faringitis. Informaci&oacute;n completa y acceso a la ficha con su aviso de puerta.</p>
+          <span class="mini-ficha__cta">Ver informaci&oacute;n &rarr;</span>
+        </a>
+
+        <a class="mini-ficha" style="--c: #c8102e" href="fichas/ficha-protector.html">
+          <span class="mini-ficha__top"><span class="mini-ficha__dot" aria-hidden="true"></span><h3>Aislamiento protector - rojo</h3></span>
+          <p>Pacientes con defensas bajas: todo lo que ingresa debe estar limpio. Informaci&oacute;n completa y acceso a la ficha.</p>
+          <span class="mini-ficha__cta">Ver informaci&oacute;n &rarr;</span>
+        </a>
+
+        <a class="mini-ficha" style="--c: #2e9e4f" href="fichas/ficha-vectorial.html">
+          <span class="mini-ficha__top"><span class="mini-ficha__dot" aria-hidden="true"></span><h3>Aislamiento vectorial - verde</h3></span>
+          <p>Dengue, zika, chikungu&ntilde;a, fiebre amarilla y malaria. Informaci&oacute;n completa y acceso a la ficha con su aviso de puerta.</p>
+          <span class="mini-ficha__cta">Ver informaci&oacute;n &rarr;</span>
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- ============ FICHAS ============ -->
-  <section class="section" id="fichas">
-    <div class="wrap">
-      <div class="section-head section-head--center">
-        <span class="eyebrow">Descargables</span>
-        <h2>Fichas de aislamiento por tipo</h2>
-        <p>
-          Una ficha por tipo de aislamiento, con el aviso de la puerta del cubículo y los
-          cuidados para la familia. Se pueden imprimir para dejarlas a la vista.
-        </p>
-      </div>
-
-      <div class="iso-grid">
-        <article class="iso-card" style="--c: var(--c-contacto)">
-          <div class="iso-card__head">
-            <span class="iso-card__swatch" aria-hidden="true">C</span>
-            <div>
-              <h3 class="iso-card__title">Contacto</h3>
-              <span class="iso-card__color">Morado</span>
-            </div>
-          </div>
-          <div class="iso-card__body">
-            <p>Transmisión por contacto directo, fluidos, objetos y superficies.</p>
-            <a class="btn btn--primary btn--block" href="fichas/ficha-contacto.html">
-              Abrir ficha <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </article>
-
-        <article class="iso-card" style="--c: var(--c-aerosoles)">
-          <div class="iso-card__head">
-            <span class="iso-card__swatch" aria-hidden="true">A</span>
-            <div>
-              <h3 class="iso-card__title">Aerosoles</h3>
-              <span class="iso-card__color">Azul</span>
-            </div>
-          </div>
-          <div class="iso-card__body">
-            <p>Transmisión por partículas en el aire. Tapabocas N95 obligatorio.</p>
-            <a class="btn btn--primary btn--block" href="fichas/ficha-aerosoles.html">
-              Abrir ficha <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </article>
-
-        <article class="iso-card" style="--c: var(--c-gotas)">
-          <div class="iso-card__head">
-            <span class="iso-card__swatch" aria-hidden="true">G</span>
-            <div>
-              <h3 class="iso-card__title">Gotas</h3>
-              <span class="iso-card__color">Amarillo</span>
-            </div>
-          </div>
-          <div class="iso-card__body">
-            <p>Transmisión por gotas de tos, estornudo o fala a corta distancia.</p>
-            <a class="btn btn--primary btn--block" href="fichas/ficha-gotas.html">
-              Abrir ficha <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </article>
-
-        <article class="iso-card" style="--c: var(--c-protector)">
-          <div class="iso-card__head">
-            <span class="iso-card__swatch" aria-hidden="true">P</span>
-            <div>
-              <h3 class="iso-card__title">Protector</h3>
-              <span class="iso-card__color">Rojo</span>
-            </div>
-          </div>
-          <div class="iso-card__body">
-            <p>Protege al paciente con defensas bajas: inmunodeprimidos, quemados y neonatos.</p>
-            <a class="btn btn--primary btn--block" href="fichas/ficha-protector.html">
-              Abrir ficha <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </article>
-
-        <article class="iso-card" style="--c: var(--c-vectorial)">
-          <div class="iso-card__head">
-            <span class="iso-card__swatch" aria-hidden="true">V</span>
-            <div>
-              <h3 class="iso-card__title">Vectorial</h3>
-              <span class="iso-card__color">Verde</span>
-            </div>
-          </div>
-          <div class="iso-card__body">
-            <p>Transmisión por mosquitos y otros vectores.</p>
-            <a class="btn btn--primary btn--block" href="fichas/ficha-vectorial.html">
-              Abrir ficha <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
+  
 
 </main>
 
-<footer class="site-footer">
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" role="contentinfo">
   <div class="wrap">
-    <!-- Logos institutionales -->
     <div class="footer-logos">
       <span class="logo-slot logo-slot--lg">
-        <img src="assets/img/logo-clinica-meta.jpg" width="400" height="400" alt="Clínica Meta" loading="lazy">
+        <img src="assets/img/logo-clinica-meta.jpeg" width="400" height="400" alt="Clínica Meta" loading="lazy">
       </span>
       <span class="logo-slot logo-slot--lg">
-        <img src="assets/img/logo-universidad-de-los-llanos.png" width="535" height="213" alt="Universidad de los Llanos" loading="lazy">
+        <img src="assets/img/logo-universidad-de-los-llanos.png" alt="Universidad de los Llanos" loading="lazy">
       </span>
     </div>
 
     <div class="footer-cols">
       <div>
-        <h3>La humanización también se aisla</h3>
-        <p>
-          Proyecto de seguridad del paciente para familias, desarrollado entre la
-          Clínica Meta y la Universidad de los Llanos.
-        </p>
-      </div>
-      <div>
-        <h3>Fichas</h3>
+        <h3>Por público</h3>
         <ul>
-          <li><a href="fichas/ficha-contacto.html">Contacto</a></li>
-          <li><a href="fichas/ficha-aerosoles.html">Aerosoles</a></li>
-          <li><a href="fichas/ficha-gotas.html">Gotas</a></li>
-          <li><a href="fichas/ficha-protector.html">Protector</a></li>
-          <li><a href="fichas/ficha-vectorial.html">Vectorial</a></li>
+          <li><a href="familiar.html">Familiares y pacientes</a></li>
+          <li><a href="personal.html">Personal de salud</a></li>
+          <li><a href="#fichas-aislamiento">Fichas de aislamiento</a></li>
+          <li><a href="personal.html#limpieza">Limpieza terminal</a></li>
         </ul>
       </div>
       <div>
-        <h3>Contenido</h3>
+        <h3>Fichas por tipo</h3>
         <ul>
-          <li><a href="bienvenida.html">Página de bienvenida (QR)</a></li>
-          <li><a href="#video">Video</a></li>
-          <li><a href="#tipos">Tipos de aislamiento</a></li>
-          <li><a href="#cuidados">Cómo cuidar</a></li>
-          <li><a href="#limpieza">Limpieza terminal</a></li>
+          <li><a href="fichas/ficha-aerosoles.html">Aerosoles (azul)</a></li>
+          <li><a href="fichas/ficha-contacto.html">Contacto (morado)</a></li>
+          <li><a href="fichas/ficha-gotas.html">Gotas (amarillo)</a></li>
+          <li><a href="fichas/ficha-protector.html">Protector (rojo)</a></li>
+          <li><a href="fichas/ficha-vectorial.html">Vectorial (verde)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Instituciones</h3>
+        <ul>
+          <li>Clínica Meta</li>
+          <li>Universidad de los Llanos</li>
+          <li>Programa de Humanización</li>
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <span>© <span data-year>2026</span> Clínica Meta · Universidad de los Llanos</span>
-      <span>Material de educación para pacientes y familiares.</span>
+      <p>Clínica Meta · Universidad de los Llanos</p>
+      <p>&copy; <span data-year></span> Seguridad del Paciente</p>
     </div>
   </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
-<a class="fab-family" href="bienvenida.html">
-  <span class="fab-family__icon" aria-hidden="true">🏠</span>
-  <span class="fab-family__text">
-    <strong>Información para el familiar</strong>
-    <span>Reglas de visita, lavado de manos, colores y alarma</span>
-  </span>
-</a>
 </body>
 </html>
